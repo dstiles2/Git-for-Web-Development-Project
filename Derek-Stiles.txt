@@ -1,0 +1,97 @@
+    https://codepen.io/dstiles2/pen/rNaxOzE?editors=1100
+
+    1. What is Semantic HTML? 
+        Semantic HTML is when the user structures their language with MEANING. It allows for any reader/co-user to intepret rationale and understand
+        why/how certain information is structured.
+    2. What is HTML used for? 
+        HTML, or hypertext markup language, is used by a user to communicate with the computer. It is used to develop and structure webpages, which are
+        visualized on the compter or mobile device.
+    3. What is an attribute and where do we put it? 
+        All HTML elements can have attributes  - they provide additional information and are usually placed in the start tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 tag is used for main, or important, headings on a webpage. It can be used as many times as needed to express how important information.
+    5. Name two tags that have required attributes
+    Input and text area
+    6. What do we put in the head of our HTML document? 
+        The head element contains information about an HTML document. It can include titles, styles, metadata, and more.
+    7. What is an id? 
+        The id element is used to specify an HTML element and is most commonly used to point to a style in CSS.
+    8. What elements can I add an id to? 
+        It can be used on any HTML element.
+    9. How many times can I use the same id on a page? 
+        An id can only be used once on a page.
+    10. What is a class? 
+        It is the same thing as an id, except that it can apply to multiple elements.
+    11. What elements can I add a class to? 
+        A class can be added to any HTML element.
+    12. How many times can I use the same class on a page? 
+        As many times as the developer wants.
+    13. How do I get my link to open in a new tab?
+        target="_blank"
+    14. What is the alt attribute used for? 
+        It's used to provide alternate text for an image.
+    15. How do I reference an id?
+        You use the # to reference an id.
+    16. What is the difference between a section and a div
+        A section contains information of similar meaning/purpose. A div provides no meaning.
+    17. What is CSS used for? 
+        CSS, or Cascading Style Sheets, is used to "style" a webpage. It's like the furniture or paint for a house.
+    18. How to we select an element? Example - every h2 on the page
+        If you want to select every h2, you would simply write "h2 {...}"
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class is used to group similar elements and an id is meant for more specificity. For example, if you wanted to group all headings, you wouldn't 
+        use an id because each heading must have a specific id. Whereas they all can be grouped by the same class.
+    20. How do we select classes in CSS?
+        You select classes with a "."
+    21. How do we select a p element with a single class of “human””?
+        .human p
+    22. What is a parent child selector? When would this be useful? 
+        It selects all direct "children" of a specified element.
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar div:link
+    24. What is a pseudo selector?
+        A pseudo-class is a selector that selects elements that are in a specific state.
+    25. What do we use the change the spacing between lines?
+        line-height
+    26. What do we use to change the spacing between letters?
+        letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border: 1px;
+            border-style: dotted;
+            border-color: black;
+        }
+    29. How do I select everything on the page? 
+        Universal selector
+    30. How do I write a comment in CSS?
+    /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+        The file will be listed at the top of the terminal.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm
+    34. Why should I use version control? 
+        Version control helps people understand what changes are made to a project while multiple people are working on it.
+    35. How often should I commit to github?
+        Whenever changes have been made or you're signing-off for an extended period.
+    36. What is the command we would use to push our repo up to github? 
+        git push
+    37. Walk me through Lambda's git flow. 
+        Add --> Commit --> Push (and always ensure work from the branch is being pushed to the forked master. It should never be Lambda's copy.)
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        Inline elements can be nested inside other elements without disrupting the flow of content. Block elements, however, will break the flow of content.
+    2. What happens when an element is positioned absolutely? 
+        The position is relative to its containing block.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display:block
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        p --> block, li--> block, img --> inline-block, div --> block, span --> inline, a --> inline
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        The box model is the way of intepreting pixels on a screen. As the name suggests, it organizing pixels by boxes (content -->
+        padding --> border --> margin) The box model has limitations, so the CSS property "display" helps with this.
